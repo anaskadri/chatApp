@@ -1,19 +1,5 @@
 import React, { Component } from 'react';
-
-const DUMMY_DATA = [
-    {
-        senderId: 'anas',
-        text: 'wassap'
-    },
-    {
-        senderId: 'anas',
-        text: 'wassap'
-    },
-    {
-        senderId: 'anas',
-        text: 'wassap'
-    }
-]
+import Message from "./Message";
 
 class MessageList extends Component {
     render() { 
@@ -21,10 +7,7 @@ class MessageList extends Component {
             <div className="message-list">
                 {this.props.messages.map((message, index) => {
                     return (
-                        <div key={index} className="message">
-                            <div className="message-username">{message.senderId}</div>
-                            <div className="message-text">{message.text}</div>
-                        </div>
+                        <Message key={index} username={message.senderId} text={message.parts[0].payload.content} />
                     )
                 })}
             </div>
