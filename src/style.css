@@ -1,10 +1,19 @@
-:root {
+/*:root {
     --main-color: #5ea3d0;
     --secondary-color: white;
     --main-text-color: #3e5869;
     --secondary-text-color: #b0c7d6;
     --send-message-form: #F5F5F5;
+}*/
+
+:root {
+    --main-color: #d05eca;
+    --secondary-color: rgb(255, 255, 255);
+    --main-text-color: #693e3e;
+    --secondary-text-color: #1d5a46;
+    --send-message-form: rgb(236, 107, 107);
 }
+
 
 html, body {
     height: 100%;
@@ -25,12 +34,12 @@ html, body {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;
     grid-template-areas: 
-        "r m m m m m"
-        "r m m m m m"
-        "r m m m m m"
-        "r m m m m m"
-        "r m m m m m"
-        "n f f f f f";
+        "r m m m m m "
+        "r m m m m m "
+        "r m m m m m "
+        "r m m m m m "
+        "r m m m m m "
+        "n s s s s s ";
 }
 
 .new-room-form {
@@ -46,7 +55,7 @@ html, body {
 }
 
 .send-message-form {
-    grid-area: f;
+    grid-area: s;
 }
 
 /* REST OF CSS */
