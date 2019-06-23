@@ -10,7 +10,7 @@
 <h4>Step1</h4>
 <p>Download chatApp project and Unzip it</p>
 <h4>step2</h4>
-Run Command Line Type those Commands
+Run Command Line & Type those Commands
 <pre>$ cd PATH-TO-PROJECT-FOLDER</pre>
 <pre>$ npm install react-scripts --save-dev</pre>
 <h4>step3</h4>
