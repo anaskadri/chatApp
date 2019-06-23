@@ -7,10 +7,26 @@
 <p>Things you need to install</p>
 <p>Node.js >> https://nodejs.org/en/</p>
 <h3>Installing</h3>
-<p>Step1</p>
+<h4>Step1</h4>
 <p>Download chatApp project and Unzip it</p>
-<p>step2</p>
-Run Command Line and go to the project foler
-<pre>cd PATH-TO-PROJECT-FOLDER</pre>
+<h4>step2</h4>
+Run Command Line Type those Commands
+<pre>$ cd PATH-TO-PROJECT-FOLDER</pre>
+<pre>$ npm install react-scripts --save-dev</pre>
+<h4>step3</h4>
+Run the App
+<pre>$ npm start</pre>
+<hr />
+<h3>Build with</h3>
+<ul>
+  <li>Reactjs</li>
+  <li>Css Grid</li>
+  <li>CHATKIT API: https://pusher.com/chatkit</li>
+</ul>
+<h3>Authors</h3>
+<ul>
+  <span style="font-weight:Bold;">Anas Kadri</span>
+</ul>
+
 
 
